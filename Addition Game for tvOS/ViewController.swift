@@ -175,6 +175,7 @@ class ViewController: UIViewController {
 	@IBAction func ResetAction(_ sender: UIButton) {
 		correctTotal = 0
 		CorrectTotalLabel.text = "Total Correct: \(correctTotal)"
+        CorrectIncorrectLabel.text = ""
 	}
 	//add sound to correct answers:
 	
